@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV RBM - Conectando o Brasil</title>
+  <style>
+    :root {
+      --cor-principal: #00994d;
+      --cor-texto: #222;
+      --cor-clara: #f5f5f5;
+      --borda: #e5e5e5;
+      --radius: 14px;
+      --fonte: 'Poppins', Arial, sans-serif;
+    }
+
+    body {
+      font-family: var(--fonte);
+      background: #fff;
+      color: var(--cor-texto);
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 420px;
+      margin: auto;
+    }
+
+    .logo {
+      width: 110px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 1.2em;
+      font-weight: 600;
+      color: #000;
+      margin-bottom: 30px;
+      line-height: 1.4;
+    }
+
+    .destaque {
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--cor-clara);
+      border: 1px solid var(--borda);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+      margin-bottom: 25px;
+      transition: 0.25s ease;
+    }
+
+    .destaque:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    }
+
+    .destaque img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .destaque-content {
+      padding: 18px 20px;
+      text-align: left;
+    }
+
+    .destaque-content h2 {
+      font-size: 1em;
+      margin-bottom: 6px;
+      color: #000;
+    }
+
+    .destaque-content p {
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 12px;
+    }
+
+    .destaque-content a {
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
+      background: var(--cor-principal);
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 0.9em;
+      transition: background 0.2s;
+    }
+
+    .destaque-content a:hover {
+      background: #007a3d;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .links a {
+      display: block;
+      background: #fafafa;
+      border: 1px solid var(--borda);
+      border-radius: var(--radius);
+      padding: 14px;
+      color: #000;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .links a:hover {
+      background: var(--cor-principal);
+      color: #fff;
+      border-color: var(--cor-principal);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 35px;
+      font-size: 0.8em;
+      color: #888;
+    }
+
+    @media (max-width: 480px) {
+      body { padding: 30px 15px; }
+      h1 { font-size: 1.1em; }
+      .destaque-content h2 { font-size: 0.95em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="Imagens/logos/01.png" alt="TV RBM" class="logo" />
+    <h1>TV RBM • Conectando os municípios do Brasil</h1>
+
+    <div class="destaque">
+      <img src="Imagens/materia/05.png" alt="Matéria em destaque" />
+      <div class="destaque-content">
+        <h2>Presidente Lula na ONU 2025: Brasil propõe nova arquitetura global por desenvolvimento sustentável e paz mundial</h2>
+        <p>Em discurso histórico na Assembleia Geral da ONU 2025, o presidente do Brasil destacou a importância da solidariedade entre as nações e a necessidade urgente de ações conjuntas para enfrentar os grandes desafios do século XXI. Lula ressaltou conquistas sociais obtidas em seu governo, como a redução da pobreza e o fortalecimento de políticas públicas inclusivas, e defendeu uma agenda internacional voltada para a preservação ambiental, a proteção dos direitos humanos e a erradicação da fome. A fala recebeu aplausos calorosos de chefes de Estado e representantes de diversos países, consolidando sua imagem como uma das principais vozes globais na luta por um futuro mais justo, democrático e sustentável.</p>
+        <a href="https://tvrbm.vercel.app/lula-onu-2025.html">Ler matéria completa</a>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="https://www.linkedin.com/in/tvrbm-comunica%C3%A7%C3%A3o-b96839388/" target="_blank">Linkdin</a>
+      <a href="https://facebook.com/tvrbm" target="_blank">Facebook</a>
+      <a href="https://www.youtube.com/@tvrbm" target="_blank">YouTube</a>
+      <a href="https://tvrbm.vercel.app/" target="_blank">Site Oficial</a>
+    </div>
+
+    <footer>© 2025 TV RBM — A voz das cidades brasileiras</footer>
+  </div>
+</body>
+</html>
